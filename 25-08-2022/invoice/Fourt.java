@@ -1,7 +1,7 @@
 package Second;
 
 import java.util.Scanner;
-public class Fourth {
+public class Fourt {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
