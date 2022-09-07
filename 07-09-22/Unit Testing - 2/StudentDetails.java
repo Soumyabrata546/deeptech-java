@@ -6,7 +6,6 @@ package com.java.unit.unit1;
 public class StudentDetails {
 	private String name;
 	private int marks1,marks2,marks3;
-	private double parcentage;
 	public String getName() {
 		return name;
 	}
@@ -34,7 +33,5 @@ public class StudentDetails {
 	public double getParcentage() {
 		return parcentage;
 	}
-	public void setParcentage(double parcentage) {
-		this.parcentage = parcentage;
-	}
+	
 }
