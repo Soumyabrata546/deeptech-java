@@ -8,6 +8,7 @@ public class BubbleSort1 {
 		// TODO Auto-generated method stub
 		int arr[]= {40,27,10,60};
 		int temp;
+		int flag=0;
 		System.out.println("Array is =");
 		for(int i=0;i<arr.length;i++) {
 			System.out.print(arr[i]+" ");	
@@ -23,19 +24,19 @@ public class BubbleSort1 {
 			}
 			System.out.print(arr[i]+" ");	
 		}
-		System.out.print("Enter the element you want to search=");
+		System.out.println("Enter the element you want to search=");
 		Scanner sc=new Scanner(System.in);
 		int no=sc.nextInt();
 		for(int i=0;i<arr.length;i++) {
 			if(no==arr[i]) {
 				System.out.print("Element found");	
+				flag=1;
 				break;
 			}
-			else {
-				System.out.print("Not found");
-			}
 		}
-
+		if(flag==0) {
+			System.out.print("Not found");
+		}
 	}
 	}
 
