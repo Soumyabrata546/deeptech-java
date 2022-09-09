@@ -1,5 +1,6 @@
 package com.java.unit.unit1;
-
+//WAP to input an array in random order and then sort it using 
+//bubble sort and then search for a given element from that sorted array
 import java.util.Scanner;
 
 public class BubbleSort1 {
