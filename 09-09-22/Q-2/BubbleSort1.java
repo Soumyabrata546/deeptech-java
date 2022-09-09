@@ -6,7 +6,14 @@ public class BubbleSort1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int arr[]= {40,27,10,60};
+		Scanner sc=new Scanner(System.in);
+		System.out.print("Enter size of array=");
+		int n=sc.nextInt();
+		int arr[]=new int[n];
+		System.out.print("Enter elements=");
+		for(int i=0;i<n;i++) {
+		arr[i]=sc.nextInt();	
+		}
 		int temp;
 		int flag=0;
 		System.out.println("Array is =");
@@ -25,7 +32,7 @@ public class BubbleSort1 {
 			System.out.print(arr[i]+" ");	
 		}
 		System.out.println("Enter the element you want to search=");
-		Scanner sc=new Scanner(System.in);
+		
 		int no=sc.nextInt();
 		for(int i=0;i<arr.length;i++) {
 			if(no==arr[i]) {
