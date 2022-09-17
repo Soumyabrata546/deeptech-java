@@ -14,9 +14,8 @@ public class File7 {
 		int i,count=0;
 		
 		while((i=fin.read())!=-1) {
-		if(Character.isLetter(i)) {
-			count++;
-		}		
+		
+			count++;		
 		}
 		System.out.print(count);
 	}
