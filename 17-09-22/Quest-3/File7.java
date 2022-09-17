@@ -14,7 +14,7 @@ public class File7 {
 		int i,count=0;
 		
 		while((i=fin.read())!=-1) {
-		
+		if(i!=' ')
 			count++;		
 		}
 		System.out.print(count);
